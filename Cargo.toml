@@ -32,6 +32,8 @@ time = "0.1.39"
 tempfile = "3.1.0"
 thread-id = "3.3.0" # remove when we work with minimal-versions without it
 paste = "1"
+assert_fs = "1"
+log = { version = "0.4", features = ["release_max_level_error"] }
 
 [features]
 unstable = []
